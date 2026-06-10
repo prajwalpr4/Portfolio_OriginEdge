@@ -149,4 +149,4 @@ This is a personal portfolio template. Feel free to fork and customize for your 
 - **Fast Loading**: Optimize all assets for quick load times
 - **Professional Email**: Use a professional email address
 
-# Developed by Prajwal P Raikar
+Developed by Prajwal P Raikar
