@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Prajwal P Raikar - Personal Portfolio Website">
+    <title>Prajwal | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+
+<body class="dark-mode">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#hero" class="logo">Prajwal</a>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle -->
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </button>
+
+                <!-- Mobile Menu Toggle -->
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content fade-in">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="highlight">Prajwal P Raikar</span>
+                    </h1>
+                    <p class="hero-subtitle">CSE Student | Web Developer | AI Explorer</p>
+                    <p class="hero-bio">
+                        I’m Prajwal P Raikar, a Computer Science and Engineering student with a strong passion for web
+                        development, data structures and algorithms, and exploring modern AI technologies. I enjoy
+                        building intuitive, efficient, and user-focused solutions while constantly learning new tools
+                        and frameworks. I’m actively looking for opportunities to apply my skills in real-world
+                        projects, collaborate with innovative teams, and grow as a developer through meaningful work.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View My Work</a>
+                        <a href="assests/resume.pdf" class="btn btn-secondary" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-links">
+                        <a href="https://github.com/prajwalpr4" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/prajwal-p-raikar-09305a299?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                            target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://x.com/itsprajwalpr?t=1rS0CAezsItpiibMRMLQMQ&s=08" target="_blank"
+                            aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="mailto:prajwalraikar1609@gmail.com?subject=Hello%20Prajwal" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- PROFILE IMAGE PLACEHOLDER -->
+                <div class="profile-image-wrapper">
+                    <div class="profile-image">
+                        <!-- Replace this placeholder with your actual image -->
+                        <img src="assests/images/profile-placeholder.jpg" alt="[Your Name]" id="profileImg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll Down Indicator -->
+        <div class="scroll-down">
+            <a href="#about">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title fade-in-section">About Me</h2>
+            <div class="about-content fade-in-section">
+                <p class="about-text">
+                    Myself Prajwal P Raikar, I’m a Computer Science and Engineering student currently in my 6th
+                    semester, passionate about web development, data structures and algorithms, and exploring innovative
+                    AI tools and technologies. I enjoy building solutions that are both creative and practical, and I
+                    love diving deep into problems to understand them from the ground up. My approach to development is
+                    driven by curiosity, continuous learning, and a desire to create meaningful user experiences through
+                    clean, efficient code. I’m currently exploring modern frameworks, improving my DSA skills, and
+                    staying updated with emerging AI advancements that can enhance real-world applications.
+                </p>
+                <p class="about-text">
+                    I’ve actively participated in several hackathons, gaining hands-on experience in rapid development,
+                    teamwork, and idea execution — and I’m proud to have won 2 of them. These hackathons have
+                    strengthened my problem-solving abilities and helped me understand how to build impactful solutions
+                    under pressure. Looking ahead, I aim to work on projects that blend creativity with technology while
+                    contributing to innovative, user-centric products. Beyond academics, I enjoy learning new tools,
+                    collaborating with peers, and constantly pushing myself to grow as a developer.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title fade-in-section">Skills & Technologies</h2>
+            <div class="skills-grid fade-in-section">
+
+                <!-- Languages -->
+                <div class="skill-category">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-category-title">Languages</h3>
+                    <ul class="skill-list">
+                        <li>C</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+
+                <!-- Frameworks & Libraries -->
+                <div class="skill-category">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3 class="skill-category-title">Frameworks & Libraries</h3>
+                    <ul class="skill-list">
+                        <li>React.js</li>
+                        <li>Node.js</li>
+                        <li>jQuery</li>
+                        <li>Bootstrap</li>
+                        <li>Flutter</li>
+                    </ul>
+                </div>
+
+                <!-- Styling & UI -->
+                <div class="skill-category">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="skill-category-title">Styling & UI</h3>
+                    <ul class="skill-list">
+                        <li>Tailwind CSS</li>
+                        <li>SASS</li>
+                        <li>Figma</li>
+                        <li>CSS Grid & Flexbox</li>
+                        <li>Bootstrap</li>
+                    </ul>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category">
+                    <div class="skill-category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3 class="skill-category-title">Tools & Platforms</h3>
+                    <ul class="skill-list">
+                        <li>Git</li>
+                        <li>GitHub</li>
+                        <li>VS Code</li>
+                        <li>Netlify</li>
+                        <li>Docker</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title fade-in-section">Featured Projects</h2>
+            <div class="projects-grid">
+
+                <!-- Project 1 -->
+                <div class="project-card fade-in-section">
+                    <div class="project-header">
+                        <h3 class="project-title">CropCompass</h3>
+                        <p class="project-subtitle">AI-based System</p>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            An AI-based system that provides intelligent crop recommendations to farmers based on various inputs. Designed to support better decision-making and improve agricultural productivity.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Data Analysis</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/prajwalpr4/cropcompass" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card fade-in-section">
+                    <div class="project-header">
+                        <h3 class="project-title">CLEVER</h3>
+                        <p class="project-subtitle">5th Sem Mini Project</p>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            An interactive platform that simplifies complex CS concepts through real-time
+                            visualizations, helping learners understand DSA intuitively and explore concepts more deeply
+                            through engaging, hands-on experimentation activities.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vanilla JavaScript</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/prajwalpr4?tab=repositories" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card fade-in-section">
+                    <div class="project-header">
+                        <h3 class="project-title">XAI-Enabled Health Fitness System</h3>
+                        <p class="project-subtitle">Explainable AI Recommendation</p>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            An advanced health and fitness recommendation system that uses Explainable Artificial Intelligence (XAI) to provide personalized diet and exercise plans with clear, understandable explanations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">XAI</span>
+                        </div>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/prajwalpr4/XAI-Enabled-Health-Fitness-Recommendation-System" target="_blank" class="project-link">
+                            <i class="fab fa-github"></i> View Code
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title fade-in-section">Certifications</h2>
+            <div class="certifications-grid fade-in-section">
+
+                <!-- Certification 1 -->
+                <div class="certification-card fade-in-section">
+                    <div class="certification-image">
+                        <img src="assests/images/cert-mongodb.jpg" alt="MongoDB Certificate" id="cert1Img"
+                            class="certification-img">
+                        <div class="image-placeholder" id="certPlaceholder1">
+                            <i class="fas fa-certificate"></i>
+                            <p>Certificate Image</p>
+                        </div>
+                    </div>
+                    <div class="certification-content">
+                        <h4 class="cert-issuer mongodb">MONGODB</h4>
+                        <h3 class="cert-title">Associate Developer Exam &ndash; Python</h3>
+                        <p class="cert-details">Jul 2025 &middot; ID: MDB152tmty9xe</p>
+                        <div class="cert-tech">
+                            <span class="cert-tag mongodb-tag">Python</span>
+                            <span class="cert-tag mongodb-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certification 2 -->
+                <div class="certification-card fade-in-section">
+                    <div class="certification-image">
+                        <img src="assests/images/cert-oracle-ds.jpg" alt="Oracle DS Certificate" id="cert2Img"
+                            class="certification-img">
+                        <div class="image-placeholder" id="certPlaceholder2">
+                            <i class="fas fa-certificate"></i>
+                            <p>Certificate Image</p>
+                        </div>
+                    </div>
+                    <div class="certification-content">
+                        <h4 class="cert-issuer oracle">ORACLE</h4>
+                        <h3 class="cert-title">Certified Data Science Professional</h3>
+                        <p class="cert-details">Oct 2025 &middot; ID: OC6702527</p>
+                        <div class="cert-tech">
+                            <span class="cert-tag oracle-tag">Data Science</span>
+                            <span class="cert-tag oracle-tag">Oracle</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certification 3 -->
+                <div class="certification-card fade-in-section">
+                    <div class="certification-image">
+                        <img src="assests/images/cert-oracle-ai.jpg" alt="Oracle AI Certificate" id="cert3Img"
+                            class="certification-img">
+                        <div class="image-placeholder" id="certPlaceholder3">
+                            <i class="fas fa-certificate"></i>
+                            <p>Certificate Image</p>
+                        </div>
+                    </div>
+                    <div class="certification-content">
+                        <h4 class="cert-issuer oracle">ORACLE</h4>
+                        <h3 class="cert-title">Certified Generative AI Professional</h3>
+                        <p class="cert-details">Oct 2025 &middot; ID: OC7577090</p>
+                        <div class="cert-tech">
+                            <span class="cert-tag oracle-tag">Generative AI</span>
+                            <span class="cert-tag oracle-tag">Oracle</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2 class="section-title fade-in-section">Achievements</h2>
+            <div class="achievements-grid fade-in-section">
+
+                <!-- Achievement 1 -->
+                <div class="achievement-card fade-in-section">
+                    <div class="achievement-image">
+                        <img src="assests/images/achievement-1.jpg.placeholder.jpg" alt="Achievement 1"
+                            id="achievement1Img" class="achievement-img">
+                        <div class="image-placeholder" id="placeholder1">
+                            <i class="fas fa-image"></i>
+                            <p>Add Image</p>
+                        </div>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">INFOTHON 5.0 Winner</h3>
+                        <p class="achievement-description">
+                            Secured 1st place at INFOTHON 5.0, a 24-hour National Level Hackathon organized by the
+                            Department of Information Science and Engineering at Vidyavardhaka College of Engineering
+                            (VVCE), Mysuru). Held on 11th–12th October 2025, the event recognized our project “Virtual
+                            Herbal Garden for AYUSH”, an AR-enabled 3D interactive platform that allows users to explore
+                            medicinal plants and understand their benefits. This achievement reflects our strong
+                            teamwork, innovation, and ability to build impactful solutions under intense time
+                            constraints.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Achievement 2 -->
+                <div class="achievement-card fade-in-section">
+                    <div class="achievement-image">
+                        <img src="assests/images/achievement-2.jpg.placeholder.jpg" alt="Achievement 2"
+                            id="achievement2Img" class="achievement-img">
+                        <div class="image-placeholder" id="placeholder2">
+                            <i class="fas fa-image"></i>
+                            <p>Add Image</p>
+                        </div>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Agentic Al & Generative Al Hackathon Winner</h3>
+                        <p class="achievement-description">
+                            Secured 2nd place at the Agentic AI & Generative AI Hackathon organized by the Department of
+                            Computer Science and Engineering, Bapuji Institute of Engineering & Technology (BIET),
+                            Davanagere. The event, themed “Agentic AI in Agriculture,” was held as an intensive 12-hour
+                            hackathon, where our team developed CropCompass, an autonomous AI system designed to support
+                            farmers with intelligent crop decision-making.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Achievement 3 -->
+                <div class="achievement-card fade-in-section">
+                    <div class="achievement-image">
+                        <img src="assests/images/achievement-3.jpg.placeholder.jpg" alt="Achievement 3"
+                            id="achievement3Img" class="achievement-img">
+                        <div class="image-placeholder" id="placeholder3">
+                            <i class="fas fa-image"></i>
+                            <p>Add Image</p>
+                        </div>
+                    </div>
+                    <div class="achievement-content">
+                        <h3 class="achievement-title">Top 10 In Hack-Karnataka</h3>
+                        <p class="achievement-description">
+                            Secured a Top 10 position at Hack-Karnataka, a 30-hour national-level hackathon organized by
+                            Google Developer Groups (GDG) at KLE Technological University, Hubballi (India). Competing
+                            among 2500+ registrations and 1000+ teams from 200+ colleges, our team was recognized for
+                            building an AI-driven platform that blends India’s AYUSH heritage with modern technology.
+                            The event took place at KLE Technological University, marking an impactful milestone in
+                            innovation, teamwork, and problem-solving.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title fade-in-section">Get In Touch</h2>
+            <p class="contact-intro fade-in-section">
+                I'm currently looking for new opportunities. Whether you have a question or just want to say hi, feel
+                free to reach out!
+            </p>
+
+            <form class="contact-form fade-in-section" id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                        <span class="error-message" id="nameError"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your.email@example.com">
+                        <span class="error-message" id="emailError"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required
+                        placeholder="Your message here..."></textarea>
+                    <span class="error-message" id="messageError"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-submit">
+                    <span class="btn-text">Send Message</span>
+                    <span class="btn-loading" style="display: none;">
+                        <i class="fas fa-spinner fa-spin"></i> Sending...
+                    </span>
+                </button>
+
+                <div class="form-message" id="formMessage"></div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Prajwal P Raikar. Built with HTML, CSS and JS </p>
+            <div class="footer-links">
+                <a href="https://github.com/prajwalpr4" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/prajwal-p-raikar-09305a299?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/itsprajwalpr?t=1rS0CAezsItpiibMRMLQMQ&s=08" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="mailto:prajwalraikar1609@gmail.com?subject=Hello%20Prajwal">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/theme.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
